@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #102838;
+  --navy-deep: #070b10;
+  --navy-elevated: #0c1520;
+  --navy-mid: #152434;
+  --ink: #04070a;
+  --surface: #0c1520;
+  --surface-elevated: #132030;
+  --cream: #e8eef3;
+  --concrete: #7d8b99;
+  --concrete-light: #b6c2ce;
+  --muted: #8b97a5;
+  --copper: #f88838;
+  --copper-bright: #ffa04a;
+  --copper-deep: #e07020;
+  --border: rgba(182, 194, 206, 0.12);
+  --border-strong: rgba(182, 194, 206, 0.22);
+  --charcoal: var(--navy-deep);
+  --charcoal-elevated: var(--navy-elevated);
+  --background: var(--navy-deep);
+  --foreground: var(--cream);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-display), "Segoe UI", sans-serif;
+}
+
+.section-pad {
+  padding-block: clamp(4rem, 8vw, 6.5rem);
+}
+
+.eyebrow {
+  font-family: var(--font-display), "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--copper);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--copper) 55%, transparent);
+  color: var(--cream);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 3px;
+}
