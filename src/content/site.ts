@@ -6,7 +6,7 @@ export const siteConfig = {
   contactEmail: "bnyoussef00@gmail.com",
   linkedInUrl: "https://www.linkedin.com/in/youssef-bounouacha/",
   phone: "+212610353236",
-  cvPath: "/cv.pdf",
+  cvPath: "/Youssef-Bounouacha-Frontend-Engineer-CV.pdf",
 
   experience: [
     {
