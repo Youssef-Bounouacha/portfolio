@@ -130,7 +130,7 @@ export const copy = {
         "Construction teams often run day-to-day work across spreadsheets and chat. Owners need one place for projects, people, partners, and money — without generic tools that ignore how sites actually run.",
       solutionTitle: "What I shipped",
       solution:
-        "A company-scoped SaaS with bilingual UI (EN/FR), role-based access, and a production-ready interface for operational and financial workflows. Owner/admin roles and permissions are enforced today; I’m building a new in-app UI so owners can configure user access themselves (currently managed in the database while that interface ships).",
+        "A company-scoped SaaS with a trilingual UI (EN / FR / AR), role-based access, and a production-ready interface for operational and financial workflows. Owner/admin roles and permissions are enforced today; I’m building a new in-app UI so owners can configure user access themselves (currently managed in the database while that interface ships).",
       scopeTitle: "Product scope",
       scope: [
         "Multi-tenant company workspaces",
@@ -138,7 +138,7 @@ export const copy = {
         "Workforce tracking",
         "Partners, supply & logistics",
         "Financial overview for owners",
-        "Bilingual EN / FR",
+        "EN / FR / AR",
         "Role-based access (UI in progress)",
       ],
       engineeringTitle: "Technical highlights",
@@ -148,7 +148,7 @@ export const copy = {
         "Dense operational UIs — complex tables, filtering, dialogs, and financial workflows (quotes, pay, cash, remaining balances)",
         "Reusable component architecture so projects, workforce, partners, and finance stay consistent",
         "Responsive application architecture that holds up from desktop to on-site mobile use",
-        "EN / FR / AR internationalization across product copy and workflows, not a surface-level toggle",
+        "EN / FR / AR internationalization, including RTL layout for Arabic — not a surface-level language toggle",
         "Production deployment and ongoing maintenance with real companies using the product",
       ],
       screenshotsTitle: "Product UI",
@@ -241,7 +241,7 @@ export const copy = {
         "Les équipes BTP font souvent tourner le quotidien via tableurs et chat. Les dirigeants ont besoin d’un lieu pour projets, gens, partenaires et argent — sans outils génériques qui ignorent le chantier réel.",
       solutionTitle: "Ce que j’ai livré",
       solution:
-        "Un SaaS scopé par entreprise, UI bilingue (EN/FR), accès par rôles, et une interface prête pour la production sur les workflows ops et financiers. Les rôles owner/admin sont déjà appliqués ; je construis une nouvelle UI pour que les owners configurent les accès utilisateurs dans l’app (géré en base pour l’instant, le temps que cette interface sorte).",
+        "Un SaaS scopé par entreprise, UI trilingue (EN / FR / AR), accès par rôles, et une interface prête pour la production sur les workflows ops et financiers. Les rôles owner/admin sont déjà appliqués ; je construis une nouvelle UI pour que les owners configurent les accès utilisateurs dans l’app (géré en base pour l’instant, le temps que cette interface sorte).",
       scopeTitle: "Périmètre produit",
       scope: [
         "Espaces entreprise multi-tenant",
@@ -249,7 +249,7 @@ export const copy = {
         "Suivi main-d’œuvre",
         "Partenaires, fournitures & logistique",
         "Vue financière pour les dirigeants",
-        "Bilingue EN / FR",
+        "EN / FR / AR",
         "Accès par rôles (UI en cours)",
       ],
       engineeringTitle: "Points techniques",
@@ -259,7 +259,7 @@ export const copy = {
         "UI opérationnelle dense — tableaux complexes, filtres, dialogs et workflows financiers (devis, paie, caisse, soldes)",
         "Architecture de composants réutilisables pour garder projets, main-d’œuvre, partenaires et finance cohérents",
         "Architecture responsive qui tient du desktop au mobile sur chantier",
-        "Internationalisation EN / FR / AR sur les contenus et les workflows, pas un simple switch de langue",
+        "Internationalisation EN / FR / AR, dont le layout RTL pour l’arabe — pas un simple switch de langue",
         "Déploiement en production et maintenance continue, avec de vraies entreprises utilisatrices",
       ],
       screenshotsTitle: "UI produit",
