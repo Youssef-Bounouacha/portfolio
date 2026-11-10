@@ -11,7 +11,11 @@ export type TechId =
   | "rest"
   | "git"
   | "github"
-  | "gitlab";
+  | "gitlab"
+  | "cursor"
+  | "claude"
+  | "copilot"
+  | "gpt";
 
 export const techStack: { id: TechId; label: string }[] = [
   { id: "react", label: "React" },
@@ -27,4 +31,8 @@ export const techStack: { id: TechId; label: string }[] = [
   { id: "git", label: "Git" },
   { id: "github", label: "GitHub" },
   { id: "gitlab", label: "GitLab" },
+  { id: "cursor", label: "Cursor" },
+  { id: "claude", label: "Claude" },
+  { id: "copilot", label: "GitHub Copilot" },
+  { id: "gpt", label: "GPT" },
 ];

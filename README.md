@@ -29,5 +29,5 @@ pnpm format
 
 - `src/content/site.ts` — profile, contact, experience, SEO
 - `src/content/copy.ts` — EN / FR copy
-- `public/Youssef-Bounouacha-Frontend-Engineer-CV.pdf` — CV download
+- `public/Youssef-Bounouacha-Software-Engineer-CV.pdf` — CV download (compiled from the LaTeX source)
 - `public/screenshots/` — product screenshots

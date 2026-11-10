@@ -2,6 +2,7 @@ export const skillCategoryIds = [
   "frontend",
   "state",
   "backend",
+  "ai",
   "mobile",
   "architecture",
   "auth",
@@ -33,11 +34,35 @@ export const skillCategories: {
   },
   {
     id: "state",
-    items: ["Zustand", "Redux", "Context API", "React Hook Form", "Zod"],
+    items: [
+      "Zustand",
+      "Redux",
+      "TanStack Query",
+      "Context API",
+      "React Hook Form",
+      "Zod",
+    ],
   },
   {
     id: "backend",
-    items: ["Laravel (PHP)", "REST APIs", "MySQL", "Supabase", "Firebase"],
+    items: [
+      "Laravel (PHP)",
+      "REST APIs",
+      "MySQL",
+      "PostgreSQL",
+      "Row Level Security",
+      "Supabase",
+      "Firebase",
+      "Java/Spring Boot",
+    ],
+  },
+  {
+    id: "ai",
+    items: [
+      "Claude API",
+      "LLM-assisted schema mapping",
+      "Prompt-based data mapping",
+    ],
   },
   {
     id: "mobile",
@@ -51,6 +76,7 @@ export const skillCategories: {
       "Reusable Component Design",
       "Performance Optimization",
       "SSR / CSR",
+      "Module Federation",
     ],
   },
   {
@@ -59,7 +85,7 @@ export const skillCategories: {
   },
   {
     id: "visualization",
-    items: ["React Flow"],
+    items: ["React Flow", "D3"],
   },
   {
     id: "quality",
@@ -76,8 +102,14 @@ export const skillCategories: {
     items: [
       "Git",
       "GitHub",
+      "GitHub Copilot",
+      "Cursor",
+      "Claude",
+      "GPT",
+      "Prompt engineering",
       "GitLab",
       "Jira",
+      "Agile/Scrum",
       "Trello",
       "Bitbucket",
       "Slack",

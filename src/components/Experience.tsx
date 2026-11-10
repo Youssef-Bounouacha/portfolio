@@ -42,6 +42,9 @@ export function Experience() {
                     <p className="mt-1 text-sm text-[var(--concrete-light)]">
                       {job.role[locale]}
                     </p>
+                    <p className="mt-1.5 max-w-xl text-sm leading-relaxed text-[var(--muted)]">
+                      {job.detail[locale]}
+                    </p>
                   </div>
                   <p className="text-sm tracking-wide text-[var(--muted)] tabular-nums">
                     {job.period[locale]}
