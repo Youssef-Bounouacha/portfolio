@@ -20,8 +20,8 @@ export const siteConfig = {
         fr: "Sep 2024 — Présent",
       },
       detail: {
-        en: "Building interactive D3 widgets that extend Fusion AI Analytics Studio’s native dashboards, integrated with typed configuration, manifest metadata, and Module Federation so query results feed the visualizations. Previously Frontend Engineer, then Frontend Lead on Connected Workers: Next.js foundation, React Flow workflow editor, and operator and team-leader tools, in production in Morocco and at international sites.",
-        fr: "Widgets D3 interactifs qui étendent les tableaux de bord natifs de Fusion AI Analytics Studio, intégrés via une configuration typée, des métadonnées de manifest et Module Federation pour alimenter les visualisations. Auparavant Frontend Engineer, puis Frontend Lead sur Connected Workers : fondation Next.js, éditeur de workflows React Flow, et outils opérateur et team leader, en production au Maroc et sur des sites internationaux.",
+        en: "Building a library of reusable custom D3 (SVG) widgets that extend Fusion AI Analytics Studio beyond its native charts, for multiple clients rather than one use case, plugged in through typed configuration, manifest metadata, and Module Federation. Previously Frontend Engineer, then Frontend Lead on Connected Workers, a digital factory platform in Tangier and Kenitra: owned the frontend of a 4-module product with 64+ pages, led 6 developers, and shipped the Next.js architecture, a React Flow workflow editor, and responsive tools for desktop and factory tablets.",
+        fr: "Bibliothèque de widgets D3 (SVG) réutilisables qui étendent Fusion AI Analytics Studio au-delà de ses graphiques natifs, conçue pour plusieurs clients, branchée via une configuration typée, des métadonnées de manifest et Module Federation. Auparavant Frontend Engineer, puis Frontend Lead sur Connected Workers, plateforme d’usine digitale à Tanger et Kénitra : frontend d’un produit à 4 modules et 64+ pages, lead de 6 développeurs, architecture Next.js, éditeur de workflows React Flow, et interfaces desktop et tablettes d’usine.",
       },
     },
     {
@@ -35,8 +35,8 @@ export const siteConfig = {
         fr: "Avr 2026 — Présent",
       },
       detail: {
-        en: "Independent production multi-tenant construction SaaS, shipped alongside full-time work. A Claude API-powered Excel import maps varied spreadsheet columns to the product data model, with user review and approval before import. PostgreSQL row-level security, and English, French, and Arabic with RTL.",
-        fr: "SaaS BTP multi-tenant indépendant, en production, livré en parallèle du temps plein. Un import Excel propulsé par l’API Claude mappe des colonnes de tableurs variés vers le modèle de données, avec revue et validation avant l’import. Row Level Security PostgreSQL, et interfaces anglais, français et arabe avec RTL.",
+        en: "Independent production multi-tenant construction SaaS, live with 2 paying clients, shipped alongside full-time work. 28 screens across projects, quotations, invoices, suppliers, subcontractors, workforce, vehicles, and cash. A Claude API Excel/CSV import maps each client’s spreadsheet columns to the data model, with mapping confirmation and a preview before anything is saved. PostgreSQL row-level security, role-based permissions, and English, French, and Arabic with RTL.",
+        fr: "SaaS BTP multi-tenant indépendant, en production chez 2 clients payants, livré en parallèle du temps plein. 28 écrans : projets, devis, factures, fournisseurs, sous-traitants, main-d’œuvre, véhicules et caisse. Un import Excel/CSV via l’API Claude mappe les colonnes des tableurs clients vers le modèle de données, avec confirmation du mapping et un aperçu avant enregistrement. Row Level Security PostgreSQL, permissions par rôle, et interfaces anglais, français et arabe avec RTL.",
       },
     },
     {
@@ -50,8 +50,8 @@ export const siteConfig = {
         fr: "Avr 2023 — Sep 2024",
       },
       detail: {
-        en: "Contributed to migrating an enterprise insurance application from React to Next.js, including routing and structure, and maintained workflows with backend and QA, including selected Java/Spring Boot bug fixes.",
-        fr: "Contribution à la migration d’une application d’assurance de React vers Next.js, routing et structure compris, et maintenance des workflows avec le backend et la QA, dont des correctifs ciblés en Java/Spring Boot.",
+        en: "Led the migration of 2 large insurance platforms (vehicle, dental, and health) from legacy React/Node to Next.js and Node LTS with 2 developers over about 6 weeks, as the only person on the team with Next.js experience. Replaced deprecated dependencies, removed unused code and pages, and supported Ubuntu deployments with load balancing in a 10-developer team.",
+        fr: "Pilotage de la migration de 2 grandes plateformes d’assurance (véhicule, dentaire et santé) de React/Node legacy vers Next.js et Node LTS, avec 2 développeurs en environ 6 semaines, seul membre de l’équipe déjà à l’aise avec Next.js. Remplacement des dépendances dépréciées, suppression du code et des pages inutilisés, et déploiements Ubuntu avec répartition de charge dans une équipe de 10 développeurs.",
       },
     },
     {
@@ -65,12 +65,12 @@ export const siteConfig = {
         fr: "Fév 2023 — Avr 2023",
       },
       detail: {
-        en: "React, React Native, and a Laravel/MySQL API.",
-        fr: "React, React Native, et une API Laravel/MySQL.",
+        en: "iOS and Android apps with React Native, and React web apps on a Laravel/MySQL backend.",
+        fr: "Applications iOS et Android en React Native, et applications web React sur un backend Laravel/MySQL.",
       },
     },
     {
-      company: "Pull4YOU Services",
+      company: "Kubicbit",
       role: {
         en: "Freelance Full-Stack Developer",
         fr: "Développeur full-stack freelance",
@@ -80,8 +80,8 @@ export const siteConfig = {
         fr: "Aoû 2022 — Fév 2023",
       },
       detail: {
-        en: "React, Redux, and REST APIs.",
-        fr: "React, Redux et API REST.",
+        en: "Formerly Pull4YOU Services. Transportation-service web app with React, Redux, and REST APIs.",
+        fr: "Anciennement Pull4YOU Services. Application web de transport avec React, Redux et API REST.",
       },
     },
     {
@@ -95,8 +95,8 @@ export const siteConfig = {
         fr: "Mar 2022 — Aoû 2022",
       },
       detail: {
-        en: "Flutter and Firebase.",
-        fr: "Flutter et Firebase.",
+        en: "Cross-platform Flutter app for technician interventions, with Firebase auth and realtime data. UI designed in Adobe XD.",
+        fr: "Application Flutter multiplateforme pour les interventions techniciens, avec authentification Firebase et données temps réel. UI conçue dans Adobe XD.",
       },
     },
   ] as const,
@@ -107,7 +107,7 @@ export const siteConfig = {
   seo: {
     title: "Youssef Bounouacha — Software Engineer",
     description:
-      "Software Engineer with 4+ years delivering production web applications across industrial operations and SaaS. Frontend architecture, multi-tenant products, and LLM API integration, including Fusion AI analytics tooling and AI-assisted features in ConstruFlow.",
-    url: "https://your-portfolio.example.com",
+      "Software Engineer with 4+ years delivering production web applications for industrial operations, insurance, and SaaS. Frontend architecture and a team of 6, multi-tenant products, and LLM API integration.",
+    url: "https://portfolio-youssefbounouacha.vercel.app",
   },
 } as const;

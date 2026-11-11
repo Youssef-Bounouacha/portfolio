@@ -46,6 +46,7 @@ export const skillCategories: {
   {
     id: "backend",
     items: [
+      "Node.js",
       "Laravel (PHP)",
       "REST APIs",
       "MySQL",
