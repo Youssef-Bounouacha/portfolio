@@ -91,8 +91,8 @@ export const copy = {
     },
     hero: {
       name: siteConfig.name,
-      role: "Software Engineer",
-      support: `Full-stack development and AI integration — ${siteConfig.yearsExperience} years delivering production web applications in React, Next.js, and TypeScript.`,
+      role: "Frontend Engineer",
+      support: `React, Next.js, and TypeScript, with AI integration — ${siteConfig.yearsExperience} years building production web applications.`,
       ctaProject: "View featured project",
       ctaContact: "Contact me",
       ctaCv: "Download CV",
@@ -101,7 +101,7 @@ export const copy = {
       eyebrow: "About me",
       title: "Full-stack with product instincts",
       body: [
-        `Software Engineer with ${siteConfig.yearsExperience} years delivering production web applications for industrial operations, insurance, and SaaS. Strong in React, Next.js, and TypeScript, with experience leading frontend architecture and a team of 6 developers, shipping multi-tenant products, and integrating LLM APIs into business workflows.`,
+        `Frontend Engineer with ${siteConfig.yearsExperience} years building production React and Next.js applications for industrial operations, insurance, and SaaS. Led frontend architecture and a team of 6 developers on a factory-operations platform, shipped a multi-tenant SaaS end to end, and integrated LLM APIs into business workflows.`,
         "Outside of work I keep building products that solve real problems.",
       ],
       skillsTitle: "Technical skills",
@@ -131,7 +131,7 @@ export const copy = {
         "Construction teams often run day-to-day work across spreadsheets and chat. Owners need one place for projects, people, partners, and money — without generic tools that ignore how sites actually run.",
       solutionTitle: "What I shipped",
       solution:
-        "A company-scoped SaaS with 28 screens, a trilingual UI (EN / FR / AR, including RTL), and role-based permissions. PostgreSQL row-level security keeps each client’s data isolated.",
+        "A company-scoped SaaS where one record replaced a separate spreadsheet per topic, so cash flow and what is still owed stay visible without recalculating across files. Invoices and financial statements download from those live figures. Trilingual UI (EN / FR / AR, including RTL), role-based permissions, and PostgreSQL row-level security.",
       scopeTitle: "Product scope",
       scope: [
         "Multi-tenant company workspaces",
@@ -148,6 +148,7 @@ export const copy = {
         "Multi-tenant SaaS: company-scoped data access so one workspace never leaks into another",
         "Authentication plus role- and permission-based authorization (owner vs operational users)",
         "Claude API Excel/CSV import maps each client’s spreadsheet columns to the data model, with mapping confirmation and a preview before anything is saved",
+        "Invoices and financial statements download from live figures, replacing hand-filled Excel and Word",
         "Dense operational UIs — complex tables, filtering, dialogs, and financial workflows (quotes, pay, cash, remaining balances)",
         "Reusable component architecture so projects, workforce, partners, and finance stay consistent",
         "Responsive application architecture that holds up from desktop to on-site mobile use",
@@ -173,15 +174,15 @@ export const copy = {
     contact: {
       eyebrow: "Contact",
       title: "Let’s talk",
-      body: "Open to software engineering roles where ownership, craft, and shipping matter. Glad to walk through my work and experience in more detail.",
+      body: "Open to frontend engineering roles where ownership, craft, and shipping matter. Glad to walk through my work and experience in more detail.",
       email: "Email me",
       linkedIn: "LinkedIn",
       phone: "Call me",
       downloadCv: "Download CV",
     },
     footer: {
-      line: `${siteConfig.name} · Software Engineer`,
-      disclaimer: "Personal portfolio — Software Engineer.",
+      line: `${siteConfig.name} · Frontend Engineer`,
+      disclaimer: "Personal portfolio — Frontend Engineer.",
       copyright: `© ${new Date().getFullYear()} ${siteConfig.name}`,
       cv: "CV",
     },
@@ -205,8 +206,8 @@ export const copy = {
     },
     hero: {
       name: siteConfig.name,
-      role: "Ingénieur logiciel",
-      support: `Développement full-stack et intégration IA — ${siteConfig.yearsExperience} ans à livrer des applications web en production avec React, Next.js et TypeScript.`,
+      role: "Ingénieur frontend",
+      support: `React, Next.js et TypeScript, avec intégration IA — ${siteConfig.yearsExperience} ans à construire des applications web en production.`,
       ctaProject: "Voir le projet phare",
       ctaContact: "Me contacter",
       ctaCv: "Télécharger le CV",
@@ -215,7 +216,7 @@ export const copy = {
       eyebrow: "À propos",
       title: "Full-stack avec instinct produit",
       body: [
-        `Ingénieur logiciel avec ${siteConfig.yearsExperience} ans d’expérience, à livrer des applications web en production pour l’industrie, l’assurance et le SaaS. Solide en React, Next.js et TypeScript : lead de l’architecture frontend et d’une équipe de 6 développeurs, produits multi-tenant, et intégration d’API LLM dans les workflows métier.`,
+        `Ingénieur frontend avec ${siteConfig.yearsExperience} ans d’expérience, à construire des applications React et Next.js en production pour l’industrie, l’assurance et le SaaS. Lead de l’architecture frontend et d’une équipe de 6 développeurs sur une plateforme d’opérations d’usine, SaaS multi-tenant livré de bout en bout, et intégration d’API LLM dans les workflows métier.`,
         "En dehors du travail, je continue à construire des produits qui répondent à de vrais besoins.",
       ],
       skillsTitle: "Compétences techniques",
@@ -245,7 +246,7 @@ export const copy = {
         "Les équipes BTP font souvent tourner le quotidien via tableurs et chat. Les dirigeants ont besoin d’un lieu pour projets, gens, partenaires et argent — sans outils génériques qui ignorent le chantier réel.",
       solutionTitle: "Ce que j’ai livré",
       solution:
-        "Un SaaS scopé par entreprise, 28 écrans, UI trilingue (EN / FR / AR, RTL compris) et permissions par rôle. La row-level security PostgreSQL isole les données de chaque client.",
+        "Un SaaS scopé par entreprise : un enregistrement remplace un tableur par sujet, pour que la trésorerie et le reste dû restent visibles sans recalculer d’un fichier à l’autre. Factures et états financiers se téléchargent depuis ces chiffres à jour. UI trilingue (EN / FR / AR, RTL compris), permissions par rôle, et row-level security PostgreSQL.",
       scopeTitle: "Périmètre produit",
       scope: [
         "Espaces entreprise multi-tenant",
@@ -262,6 +263,7 @@ export const copy = {
         "SaaS multi-tenant : accès aux données scopé par entreprise, sans fuite d’un workspace vers un autre",
         "Authentification et autorisation par rôles / permissions (owner vs utilisateurs opérationnels)",
         "Import Excel/CSV via l’API Claude : mapping des colonnes de chaque client vers le modèle de données, avec confirmation du mapping et un aperçu avant enregistrement",
+        "Factures et états financiers téléchargés depuis les chiffres à jour, à la place de fichiers Excel et Word remplis à la main",
         "UI opérationnelle dense — tableaux complexes, filtres, dialogs et workflows financiers (devis, paie, caisse, soldes)",
         "Architecture de composants réutilisables pour garder projets, main-d’œuvre, partenaires et finance cohérents",
         "Architecture responsive qui tient du desktop au mobile sur chantier",
@@ -287,15 +289,15 @@ export const copy = {
     contact: {
       eyebrow: "Contact",
       title: "Discutons",
-      body: "Ouvert aux rôles d’ingénieur logiciel où l’ownership, le craft et le shipping comptent. Avec plaisir pour détailler mon travail et mon parcours.",
+      body: "Ouvert aux rôles d’ingénieur frontend où l’ownership, le craft et le shipping comptent. Avec plaisir pour détailler mon travail et mon parcours.",
       email: "M’écrire",
       linkedIn: "LinkedIn",
       phone: "M’appeler",
       downloadCv: "Télécharger le CV",
     },
     footer: {
-      line: `${siteConfig.name} · Ingénieur logiciel`,
-      disclaimer: "Portfolio personnel — Ingénieur logiciel.",
+      line: `${siteConfig.name} · Ingénieur frontend`,
+      disclaimer: "Portfolio personnel — Ingénieur frontend.",
       copyright: `© ${new Date().getFullYear()} ${siteConfig.name}`,
       cv: "CV",
     },

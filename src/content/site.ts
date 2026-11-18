@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Youssef Bounouacha",
-  role: "Software Engineer",
+  role: "Frontend Engineer",
   yearsExperience: "4+",
 
   contactEmail: "bnyoussef00@gmail.com",
@@ -20,8 +20,8 @@ export const siteConfig = {
         fr: "Sep 2024 — Présent",
       },
       detail: {
-        en: "Building a library of reusable custom D3 (SVG) widgets that extend Fusion AI Analytics Studio beyond its native charts, for multiple clients rather than one use case, plugged in through typed configuration, manifest metadata, and Module Federation. Previously Frontend Engineer, then Frontend Lead on Connected Workers, a digital factory platform in Tangier and Kenitra: owned the frontend of a 4-module product with 64+ pages, led 6 developers, and shipped the Next.js architecture, a React Flow workflow editor, and responsive tools for desktop and factory tablets.",
-        fr: "Bibliothèque de widgets D3 (SVG) réutilisables qui étendent Fusion AI Analytics Studio au-delà de ses graphiques natifs, conçue pour plusieurs clients, branchée via une configuration typée, des métadonnées de manifest et Module Federation. Auparavant Frontend Engineer, puis Frontend Lead sur Connected Workers, plateforme d’usine digitale à Tanger et Kénitra : frontend d’un produit à 4 modules et 64+ pages, lead de 6 développeurs, architecture Next.js, éditeur de workflows React Flow, et interfaces desktop et tablettes d’usine.",
+        en: "Building a library of reusable custom D3 (SVG) widgets that extend Fusion AI Analytics Studio beyond its native charts, for multiple clients rather than one use case, plugged in through typed configuration, manifest metadata, and Module Federation. Previously Frontend Engineer, then Frontend Lead on Connected Workers, a digital factory platform in Tangier and Kenitra: owned the frontend in a 17-person team, replacing paper handoffs with one app shared by the plant floor and the office. Led 6 developers with ready-to-use components on a current Next.js stack, and shipped a React Flow workflow editor plus responsive interfaces for desktop and factory tablets.",
+        fr: "Bibliothèque de widgets D3 (SVG) réutilisables qui étendent Fusion AI Analytics Studio au-delà de ses graphiques natifs, conçue pour plusieurs clients, branchée via une configuration typée, des métadonnées de manifest et Module Federation. Auparavant Frontend Engineer, puis Frontend Lead sur Connected Workers, plateforme d’usine digitale à Tanger et Kénitra : frontend au sein d’une équipe de 17 personnes, en remplaçant les passages papier par une application partagée entre l’atelier et le bureau. Lead de 6 développeurs avec des composants prêts à l’emploi sur une stack Next.js à jour, éditeur de workflows React Flow, et interfaces desktop et tablettes d’usine.",
       },
     },
     {
@@ -35,8 +35,8 @@ export const siteConfig = {
         fr: "Avr 2026 — Présent",
       },
       detail: {
-        en: "Independent production multi-tenant construction SaaS, live with 2 paying clients, shipped alongside full-time work. 28 screens across projects, quotations, invoices, suppliers, subcontractors, workforce, vehicles, and cash. A Claude API Excel/CSV import maps each client’s spreadsheet columns to the data model, with mapping confirmation and a preview before anything is saved. PostgreSQL row-level security, role-based permissions, and English, French, and Arabic with RTL.",
-        fr: "SaaS BTP multi-tenant indépendant, en production chez 2 clients payants, livré en parallèle du temps plein. 28 écrans : projets, devis, factures, fournisseurs, sous-traitants, main-d’œuvre, véhicules et caisse. Un import Excel/CSV via l’API Claude mappe les colonnes des tableurs clients vers le modèle de données, avec confirmation du mapping et un aperçu avant enregistrement. Row Level Security PostgreSQL, permissions par rôle, et interfaces anglais, français et arabe avec RTL.",
+        en: "Independent production multi-tenant construction SaaS, live with 2 paying clients, shipped alongside full-time work. One record replaced a separate spreadsheet per topic, so cash flow and what is still owed stay visible without recalculating across files, and invoices and financial statements download from those live figures. A Claude API Excel/CSV import maps each client’s spreadsheet columns to the data model, with mapping confirmation and a preview before anything is saved. PostgreSQL row-level security, role-based permissions, and English, French, and Arabic with RTL.",
+        fr: "SaaS BTP multi-tenant indépendant, en production chez 2 clients payants, livré en parallèle du temps plein. Un enregistrement remplace un tableur par sujet, pour que la trésorerie et le reste dû restent visibles sans recalculer d’un fichier à l’autre, et les factures et états financiers se téléchargent depuis ces chiffres. Un import Excel/CSV via l’API Claude mappe les colonnes des tableurs clients vers le modèle de données, avec confirmation du mapping et un aperçu avant enregistrement. Row Level Security PostgreSQL, permissions par rôle, et interfaces anglais, français et arabe avec RTL.",
       },
     },
     {
@@ -50,8 +50,8 @@ export const siteConfig = {
         fr: "Avr 2023 — Sep 2024",
       },
       detail: {
-        en: "Led the migration of 2 large insurance platforms (vehicle, dental, and health) from legacy React/Node to Next.js and Node LTS with 2 developers over about 6 weeks, as the only person on the team with Next.js experience. Replaced deprecated dependencies, removed unused code and pages, and supported Ubuntu deployments with load balancing in a 10-developer team.",
-        fr: "Pilotage de la migration de 2 grandes plateformes d’assurance (véhicule, dentaire et santé) de React/Node legacy vers Next.js et Node LTS, avec 2 développeurs en environ 6 semaines, seul membre de l’équipe déjà à l’aise avec Next.js. Remplacement des dépendances dépréciées, suppression du code et des pages inutilisés, et déploiements Ubuntu avec répartition de charge dans une équipe de 10 développeurs.",
+        en: "Led the migration of 2 large insurance platforms (vehicle and dental) from legacy React/Node to Next.js and Node LTS with 2 developers over about 6 weeks, as the only person on the team with Next.js experience. Replaced deprecated dependencies, removed unused code and pages, and supported Ubuntu deployments with load balancing in a 10-developer team.",
+        fr: "Pilotage de la migration de 2 grandes plateformes d’assurance (véhicule et dentaire) de React/Node legacy vers Next.js et Node LTS, avec 2 développeurs en environ 6 semaines, seul membre de l’équipe déjà à l’aise avec Next.js. Remplacement des dépendances dépréciées, suppression du code et des pages inutilisés, et déploiements Ubuntu avec répartition de charge dans une équipe de 10 développeurs.",
       },
     },
     {
@@ -105,9 +105,9 @@ export const siteConfig = {
   demoCompany: "Atlas Builders",
 
   seo: {
-    title: "Youssef Bounouacha — Software Engineer",
+    title: "Youssef Bounouacha — Frontend Engineer",
     description:
-      "Software Engineer with 4+ years delivering production web applications for industrial operations, insurance, and SaaS. Frontend architecture and a team of 6, multi-tenant products, and LLM API integration.",
-    url: "https://portfolio-youssefbounouacha.vercel.app",
+      "Frontend Engineer with 4+ years building production React and Next.js applications for industrial operations, insurance, and SaaS. Led frontend architecture and a team of 6, shipped a multi-tenant SaaS, and integrated LLM APIs.",
+    url: "https://portfolio-youssef-bounouacha.vercel.app",
   },
 } as const;
